@@ -1,0 +1,39 @@
+body{
+    --main-background: #000000;
+    --main-font: #FFFFFF;
+    --contrast-color: #B8FF20;
+    --contrast-color-hover: #D9FF88;
+    background-color: var(--main-background);
+    color: var(--main-font);
+    overflow-x: hidden;
+    max-width: 100%;
+    -webkit-text-size-adjust: none;
+    font-size: 10px;
+}
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
+
+
+.block{
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.btn {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 40px;
+    border-radius: 20px;
+}
